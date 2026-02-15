@@ -2,5 +2,6 @@
 
 # Write a function to help Bob with this calculation.
 
-def get_colume_of_cuboid(length,widht,height):
-    pass
+def get_volume_of_cuboid(length, width, height):
+    return length * width * height
+
