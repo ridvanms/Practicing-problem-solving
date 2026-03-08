@@ -7,8 +7,12 @@
 # No whitespaces / underscore
 
 def alphanumeric(password: str) -> bool:
+    if password == "":
+        return False
     for ch in password:
         if not ch.isalnum():
             return False
         
     return True
+
+# NOTE: also with return password.isalnum() 
